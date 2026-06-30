@@ -1,0 +1,67 @@
+body {
+    background-color: #d3d3d3;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: linear-gradient(180deg, black, white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.sidebar h2 {
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 16px;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ranking-table th, .ranking-table td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.ranking-table th {
+    background-color: #e0e0e0;
+}
+
+.wide-card {
+    max-width: 800px;
+    width: 90%;
+}
+
+.ranking-table img {
+    width: 150px;
+    height: auto;
+}
